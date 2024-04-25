@@ -1,4 +1,5 @@
 # Introduction
+Air pollution, stemming from natural sources, automobile emissions, and industrial activities, poses a significant threat to both the environment and human health. Key pollutants, such as particulate matter, nitrogen oxides, sulfur dioxide, volatile organic compounds, and ozone, exacerbate climate change, impact cardiovascular and pulmonary systems, and damage ecosystems. Effective management and forecasting of air pollution concentrations are vital to mitigate these effects. Our study evaluated various regression models' ability to predict air pollutant concentrations using data from air quality sensors. Among them, gradient boosting emerged as the top-performing model, offering accurate estimates crucial for environmental and public health initiatives. However, further research is needed to enhance the scalability and reliability of these models for practical use in real-world air quality prediction.
 
 # Dataset
 This dataset contains the responses of a gas multisensor device deployed on the field in an Italian city. Hourly responses averages are recorded along with gas concentrations references from a certified analyzer. This dataset was taken from UCI Machine Learning Repository: https://archive.ics.uci.edu/ml/index.php
@@ -8,5 +9,7 @@ The dataset contains 9357 instances of hourly averaged responses from an array o
 This dataset was obtained from Kaggle: https://www.kaggle.com/datasets/fedesoriano/air-quality-data-set
 
 # Methodology
+The study focused on assessing regression models for forecasting air pollutant concentrations. It utilized various regression techniques such as K Nearest Neighbors, Linear Regression, Huber Regression, Ada Boost, Gaussian Process, MLP, Random Forest, SVR, Decision Tree, Gradient Boosting, and XGBoost. These models were evaluated using metrics like mean squared error and R-squared to gauge performance. Thorough model evaluation and comparison were conducted systematically, aiding in model selection for datasets with multiple dependent variables.
 
 # Conclusion
+This study offers valuable insights into the effectiveness of different regression models on a specific dataset. Through rigorous comparison and assessment, models with superior predictive potential were identified, supported by quantitative analyses using metrics like mean squared error (MSE) and coefficient of determination (R2). The results highlight the predictive ability of models with higher R2 scores and lower MSE values, such as K Neighbors and Gradient Boosting. The systematic assessment process ensures the reliability and validity of the conclusions, contributing to predictive modeling expertise.
