@@ -19,3 +19,6 @@ In our methodology, we employ the XGBoost classifier to predict Influenza-A infe
 # Conclusion
 
 Through the seamless integration of XGBoost, the healthcare sector embarks on a transformative journey towards more effective treatment assessments and strategic advancements in combating Influenza-A outbreaks.
+
+#Find the Conference Paper on IEEE Xplore
+https://ieeexplore.ieee.org/document/10503406
